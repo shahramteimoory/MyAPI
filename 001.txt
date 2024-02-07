@@ -1,0 +1,23 @@
+﻿StatusCodes
+
+Level - 200  Sucess
+200 - ok
+201 - Created    ساختن چیزی
+204 - No Content    کار انجام شده ولی برگشت نداره
+-------------------------------------------------------------------
+Level - 400  - Client Mistake 
+
+400 - BadRequest    درخواست صحیح نبوده
+401 - UnAuthorized     خطای احراز هویت
+403 - ForBidden      نداشتن دسترسی
+404 - Not Found       پیدا نشدن
+409 - Conflict       تداخل مثلا 2 نفر با هم یچیز رو ادیت کردن 
+-------------------------
+
+ Server Mistake 
+
+ Leve - 500   Interneal Server Error 
+
+
+
+ ConectionString sqllite :"Data Source=esmbank"

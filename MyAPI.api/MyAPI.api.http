@@ -1,0 +1,31 @@
+@MyAPI.api_HostAddress = https://localhost:44319
+
+GET {{MyAPI.api_HostAddress}}/Customer
+Accept: application/json
+
+###
+GET {{MyAPI.api_HostAddress}}/Customer/3
+Accept: application/json
+
+###
+
+PUT {{MyAPI.api_HostAddress}}/Customer/
+Accept: application/json
+
+###
+POST {{MyAPI.api_HostAddress}}/Customer
+Accept: application/json
+Content-Type: application/json
+
+{
+  "FirstName": "John ",
+  "LastName": "Doe",
+  "Email": "johndoe@example.com",
+  "Phone": "1234567890",
+  "Address": "akabr",
+  "City": "shahrakbari",
+  "Ostan": "akabrian",
+  "ZipCode": "1232421"
+}
+
+
